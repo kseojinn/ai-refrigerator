@@ -1,4 +1,4 @@
-# 🍳 AI 스마트 냉장고 레시피 추천 시스템
+# 🍳 AI 냉장고 레시피 추천 시스템
 
 VLM(Vision Language Model)과 LLM(Large Language Model)을 활용한 지능형 냉장고 관리 및 레시피 추천 웹 애플리케이션입니다.
 
