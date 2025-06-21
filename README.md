@@ -141,18 +141,6 @@ def generate_custom_recipe(dish_name, available_ingredients):
 
 이 프로젝트는 MIT 라이센스를 따릅니다.
 
-## 👥 기여
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📞 문의
-
-프로젝트에 대한 문의사항이 있으시면 이슈를 생성해주세요.
-
 ---
 
 **⚠️ 주의사항**: 
