@@ -140,9 +140,3 @@ def generate_custom_recipe(dish_name, available_ingredients):
 ## 📝 라이센스
 
 이 프로젝트는 MIT 라이센스를 따릅니다.
-
----
-
-**⚠️ 주의사항**: 
-- API 키는 절대 GitHub에 업로드하지 마세요
-- `.env` 파일이나 실제 API 키가 포함된 파일은 `.gitignore`에 추가되어 있습니다
