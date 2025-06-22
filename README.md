@@ -1,17 +1,17 @@
-# 🍳 AI 냉장고 레시피 추천 시스템
+# AI 냉장고 레시피 추천 시스템
 
 VLM(Vision Language Model)과 LLM(Large Language Model)을 활용한 지능형 냉장고 관리 및 레시피 추천 웹 애플리케이션입니다.
 
-## 🎯 프로젝트 개요
+## 프로젝트 개요
 
 식재료 사진을 업로드하면 AI가 자동으로 인식하여 냉장고를 관리하고, 보유한 재료를 기반으로 맞춤형 레시피를 추천해주는 시스템입니다.
 
 ### 주요 기능
 
-- **📸 VLM 활용**: 식재료 이미지 인식 및 자동 분류 (냉동/냉장/야채/실온)
-- **🤖 LLM 활용**: 보유 재료 기반 5가지 카테고리 레시피 추천 (한식/중식/일식/양식/기타)
-- **🔍 커스텀 검색**: 원하는 요리명 입력 시 레시피 및 부족한 재료 분석
-- **🍽️ 재료 관리**: 요리 완료 시 사용된 재료 자동 소비 처리
+- **VLM 활용**: 식재료 이미지 인식 및 자동 분류 (냉동/냉장/야채/실온)
+- **LLM 활용**: 보유 재료 기반 5가지 카테고리 레시피 추천 (한식/중식/일식/양식/기타)
+- **커스텀 검색**: 원하는 요리명 입력 시 레시피 및 부족한 재료 분석
+- **재료 관리**: 요리 완료 시 사용된 재료 자동 소비 처리
 
 ## 🛠️ 기술 스택
 
@@ -20,7 +20,7 @@ VLM(Vision Language Model)과 LLM(Large Language Model)을 활용한 지능형 �
 - **AI Model**: Google Gemini 2.5 Flash
 - **Image Processing**: PIL (Pillow)
 
-## 📦 설치 및 실행
+## 설치 및 실행
 
 ### 1. 저장소 클론
 ```bash
@@ -67,7 +67,7 @@ python run.py
 
 브라우저에서 `http://localhost:5000` 접속
 
-## 🎮 사용법
+## 사용법
 
 ### 1. 식재료 추가
 - 식재료가 포함된 사진을 드래그 앤 드롭 또는 파일 선택으로 업로드
@@ -84,7 +84,7 @@ python run.py
 - 만들고 싶은 요리명 입력
 - 필요한 재료, 보유한 재료, 부족한 재료 분석 결과 제공
 
-## 🏗️ 프로젝트 구조
+## 프로젝트 구조
 
 ```
 ai-refrigerator/
@@ -99,7 +99,7 @@ ai-refrigerator/
 └── README.md
 ```
 
-## 🤖 AI 모델 활용
+## AI 모델 활용
 
 ### VLM (Vision Language Model)
 ```python
@@ -118,7 +118,7 @@ def generate_custom_recipe(dish_name, available_ingredients):
     # 사용자 요청 요리에 대한 재료 분석 및 레시피 제공
 ```
 
-## 📸 스크린샷
+## 스크린샷
 
 ### 메인 화면
 - 현대적인 그라디언트 디자인
@@ -130,13 +130,13 @@ def generate_custom_recipe(dish_name, available_ingredients):
 - 재료와 조리법 상세 표시
 - 요리 완료 기능
 
-## 🔧 개발 환경
+## 개발 환경
 
 - Python 3.9+
 - Flask 2.3.3
 - Google Gemini API
 - Modern Web Browsers
 
-## 📝 라이센스
+## 라이센스
 
 이 프로젝트는 MIT 라이센스를 따릅니다.
