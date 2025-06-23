@@ -57,7 +57,7 @@ GEMINI_API_KEY=your_actual_api_key_here
 **방법 2: 직접 수정**
 ```python
 # enhanced_app.py 또는 config.py에서
-GEMINI_API_KEY = "your_actual_api_key_here"
+GEMINI_API_KEY = "api_key_here"
 ```
 
 ### 5. 애플리케이션 실행
