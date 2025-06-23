@@ -51,7 +51,7 @@ pip install -r requirements.txt
 **방법 1: 환경변수 (.env 파일)**
 ```bash
 # .env 파일 생성
-GEMINI_API_KEY=your_actual_api_key_here
+GEMINI_API_KEY=api_key_here
 ```
 
 **방법 2: 직접 수정**
