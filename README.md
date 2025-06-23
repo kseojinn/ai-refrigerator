@@ -46,18 +46,11 @@ pip install -r requirements.txt
 
 ### 4. API 키 설정
 1. [Google AI Studio](https://makersuite.google.com/app/apikey)에서 Gemini API 키 발급
-2. 다음 중 한 가지 방법으로 API 키 설정:
+2. API 키 설정:
 
-**방법 1: 환경변수 (.env 파일)**
 ```bash
 # .env 파일 생성
 GEMINI_API_KEY=api_key_here
-```
-
-**방법 2: 직접 수정**
-```python
-# enhanced_app.py 또는 config.py에서
-GEMINI_API_KEY = "api_key_here"
 ```
 
 ### 5. 애플리케이션 실행
