@@ -13,7 +13,7 @@ VLM(Vision Language Model)과 LLM(Large Language Model)을 활용한 지능형 �
 - **커스텀 검색**: 원하는 요리명 입력 시 레시피 및 부족한 재료 분석
 - **재료 관리**: 요리 완료 시 사용된 재료 자동 소비 처리
 
-## 🛠️ 기술 스택
+## 기술 스택
 
 - **Backend**: Flask (Python)
 - **Frontend**: HTML5, CSS3, JavaScript
